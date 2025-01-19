@@ -23,7 +23,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "public",
               }
             ],
             "styles": [
@@ -31,6 +31,7 @@
             ],
             "scripts": []
           },
+         
           "configurations": {
             "production": {
               "budgets": [
@@ -92,5 +93,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "380d87f7-bce1-432a-83ec-b2071e09ab55"
   }
 }
