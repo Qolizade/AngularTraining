@@ -1,0 +1,27 @@
+
+.tittle {
+  font-family: 'Vazir , tahoma';
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+  display: grid;
+  justify-content: center;
+}
+
+.margin{
+  margin: 10px;
+}
+
+.margin_check{
+  margin-bottom: 3px;
+  margin-top: 3px;
+  margin-left: 10px;
+  
+}
+
+.lable{
+  display: block;
+  margin-bottom: 2px;
+}
