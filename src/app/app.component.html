@@ -30,6 +30,16 @@
         <p>{{dateInput | date : 'MMMM d, y'}}</p>
       </div>
     </div>
+    <div class="row">
+      <div class="form-group col">
+        <label for="">Amount Date</label><br>
+        <input type="text" (input)="onCurrencyChange($event)">
+      </div>
+      <div class="col">
+        <label for="">Amount Date</label>
+        <p>{{currencyInput | currency }}</p>
+      </div>
+    </div>
   </div>
 </body>
 
