@@ -13,6 +13,7 @@ export class AppComponent {
   nameInput: string = '';
   dateInput: string = '';
   currencyInput: string = '';
+  mileInput: number = 0;
 
   onNameChange(event: Event) {
     const Input = event.target as HTMLInputElement;
@@ -27,5 +28,10 @@ export class AppComponent {
   onCurrencyChange(event:Event){
     const Input = event.target as HTMLInputElement;
     this.currencyInput = Input.value;
+  }
+
+  onMileChange(event:Event){
+    const Input = event.target as HTMLInputElement;
+    this.mileInput =parseFloat(Input.value);
   }
 }

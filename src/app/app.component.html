@@ -40,6 +40,16 @@
         <p>{{currencyInput | currency }}</p>
       </div>
     </div>
+    <div class="row">
+      <div class="form-group col">
+        <label for="">Mile</label><br>
+        <input type="text" (input)="onMileChange($event)">
+      </div>
+      <div class="col">
+        <label for="">Km</label>
+        <p>{{mileInput | currency : 'm' }}</p>
+      </div>
+    </div>
   </div>
 </body>
 
